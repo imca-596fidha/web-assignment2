@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff1f2;
+    text-align: center;
+    margin: 0;
+    padding: 30px 15px;
+    color: #4c1d24;
+}
+
+h1 {
+    color: #9f1239;
+}
+
+h2 {
+    color: #be123c;
+}
+
+.container {
+    background: white;
+    width: 450px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #e7b6c0;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin: 12px auto;
+    border: 1px solid #f0b8c4;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="submit"], .btn {
+    background: #be123c;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    width: auto;
+}
+
+input[type="submit"]:hover, .btn:hover {
+    background: #881337;
+}
+
+a {
+    color: #be123c;
+}
+
+table {
+    border-collapse: collapse;
+    background: white;
+    margin: 20px auto;
+    width: 95%;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #f0b8c4;
+}
+
+th {
+    background: #be123c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #fff1f2;
+}
+
+td form {
+    display: inline;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Oct, 2026, 6:36:52 AM
+    Author     : SCMS
+*/
+
